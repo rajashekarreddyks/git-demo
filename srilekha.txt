@@ -1,0 +1,39 @@
+Some important GitHub Commands:
+------------------------------------------
+BASIC
+---------------------------
+pwd - Present Working Directory
+ls - Listing files and directories in the pwd
+cd - Changes our directory to some else
+mkdir - Make a new Directory (separated by spaces it is creating more directories)
+touch - Creates a file in the directory
+rm - Removes a file in the directory
+--help - Provides instruction of a command
+ls *any - Displays list of files that end with (any as letters)
+ls *any* - Displays list of files that contain (any as letters)
+ls *.any > somefile - Creates a new file withoout touch command at all files of (any as letters)
+cat somefiles - Obtains where Somefiles is present in
+rm *.any - All files that end with (any as letters) are removed
+rm * - All files are removed
+git init - initialization of .git repository
+git status - Obtains status in Git with commits to track files
+clear - Clears all commands and responses from command line interrupt
+exit - Exits from the command line interrupt application
+git config user.name "asdfg" - Assign name to the user 
+git config user.email "1234@klun.in" - Assign email to the user
+git config user.name - Displays the value 
+git config user.email - Displays the email
+git add Filename - Adds a existing file to git repository
+git rm --cached Filename - Removes a file in repository to unstaged file
+git commit -m "Some" - Adds a statement in the place of filename in the log
+git status - Shows "nothing to commit, working tree clean" if only a repository file is made as commit
+git log - Shows Author (user.name with user.email) , Date and commits added
+Notepad File.html - Shows GUI of notepad belonging to the file
+git restore Filename - Changes of the filename are not saved and made into git repository
+git clone address(cloning file project) - Allows the project file in git to be copied into our directory as a directory
+git push - Adds files in a directory into the cloud's project (branch name is visible at location paths in declaration of command shell)
+git push origin BRANCHNAME (optional)
+git reset HASHCODE -The commit is modified back to its previous file without changes being undone (Commit code is HASHCODE)
+git pull - To sync the files into project at cloud
+-------------------------------------
+
